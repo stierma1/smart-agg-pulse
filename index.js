@@ -1,5 +1,5 @@
-var CameraProvider = require("./lib/camera");
+var Pulse = require("./lib/pulse");
 
 module.exports = function(config){
-  return new CameraProvider(config);
+  return new Pulse(config);
 };
